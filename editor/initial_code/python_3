@@ -3,7 +3,7 @@ from typing import Iterable
 
 def reversed_permutation_index(length: int, index: int) -> Iterable[int]:
 
-    return (0)
+    return 0,
 
 
 if __name__ == '__main__':
