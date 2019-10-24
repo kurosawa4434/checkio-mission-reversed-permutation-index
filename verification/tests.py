@@ -15,6 +15,16 @@ TESTS = {
             'answer': [2, 0, 1],
         },
         {
+            'input': [5, 1],
+            'answer': [0, 1, 2, 3, 4],
+            'explanation': 'Edge case: first permutation of length 5',
+        },
+        {
+            'input': [5, 120],
+            'answer': [4, 3, 2, 1, 0],
+            'explanation': 'Edge case: last permutation of length 5',
+        },
+        {
             'input': [6, 271],
             'answer': [2, 1, 3, 0, 4, 5],
         },
